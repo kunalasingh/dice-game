@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dice</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+
+            <h1 class="display-1 heading">Dice Game</h1>
+        
+        </header>
+
+
+        <main>
+
+            <div class="row">
+        
+                <div class="player-card col-6">
+                    <h2>Player 1</h2>
+                    <img class="img" src="images/dice-one.png" alt="" id="dice1">
+                </div>
+            
+                <div class="player-card col-6 ">
+                    <h2>Player 2</h2>
+                    <img class="img" src="images/dice-one.png" alt="" id="dice2">
+                </div>
+            </div>
+            
+            <div class="row">
+    
+                <button class="btn btn-lg btn-success play-button" onclick="game()">Let's Play</button>
+            </div>
+    
+            <div class="row">
+                <h2 id="result"></h2>
+    
+            </div>
+        </main>
+    </div>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>

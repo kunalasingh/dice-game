@@ -1,0 +1,28 @@
+
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.heading {
+    margin: 3% auto;
+    
+    text-align: center;
+    font-weight: 400;
+}
+
+.player-card {
+    text-align: center;
+    
+}
+
+.play-button {
+    
+    width: 30%;
+    margin: 3% auto;
+}
+
+#result {
+    margin: 3% auto;
+}
