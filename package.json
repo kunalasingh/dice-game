@@ -1,0 +1,11 @@
+{
+  "name": "dice",
+  "version": "1.0.0",
+  "description": "a simple dice game to settle an argument.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kunal",
+  "license": "ISC"
+}
